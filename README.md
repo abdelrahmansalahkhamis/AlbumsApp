@@ -2,7 +2,7 @@
 
 - This project is fully designed and coded in Swift
 
-- It is a <img width="410" alt="Screenshot 2023-09-10 at 8 55 48 PM" src="https://github.com/abdelrahmansalahkhamis/AlbumsApp/assets/33458355/c2681433-eb32-4480-9b45-40e150d89901"> basic demo to fetch, and render some remote data
+- It is a basic demo to fetch, and render some remote data
 
 - the architecture pattern used is MVVM
 
