@@ -13,6 +13,13 @@
 		9B402F0D2AADD913002B9778 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 9B402F0C2AADD913002B9778 /* Moya */; };
 		9B402F0F2AADD913002B9778 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 9B402F0E2AADD913002B9778 /* ReactiveMoya */; };
 		9B402F112AADD913002B9778 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 9B402F102AADD913002B9778 /* RxMoya */; };
+		9B402F132AADDAD7002B9778 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B402F122AADDAD7002B9778 /* NetworkService.swift */; };
+		9B402F152AADDBE5002B9778 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B402F142AADDBE5002B9778 /* AlbumViewModel.swift */; };
+		9B402F182AAE31FA002B9778 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9B402F172AAE31FA002B9778 /* Kingfisher */; };
+		9B402F1B2AAE360D002B9778 /* AlbumsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B402F1A2AAE360D002B9778 /* AlbumsModel.swift */; };
+		9B402F1D2AAE3643002B9778 /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B402F1C2AAE3643002B9778 /* UsersModel.swift */; };
+		9B402F1F2AAE36D4002B9778 /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B402F1E2AAE36D4002B9778 /* PhotosModel.swift */; };
+		9B402F222AAE370E002B9778 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B402F212AAE370E002B9778 /* NetworkManager.swift */; };
 		9B9162A12AACD629000018DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9162A02AACD629000018DD /* AppDelegate.swift */; };
 		9B9162A82AACD629000018DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9162A62AACD629000018DD /* Main.storyboard */; };
 		9B9162AA2AACD629000018DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9162A92AACD629000018DD /* Assets.xcassets */; };
@@ -25,6 +32,12 @@
 /* Begin PBXFileReference section */
 		9B402F052AADCEF1002B9778 /* AlbumDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsScreen.swift; sourceTree = "<group>"; };
 		9B402F072AADCF4B002B9778 /* AlbumDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsCell.swift; sourceTree = "<group>"; };
+		9B402F122AADDAD7002B9778 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		9B402F142AADDBE5002B9778 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		9B402F1A2AAE360D002B9778 /* AlbumsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsModel.swift; sourceTree = "<group>"; };
+		9B402F1C2AAE3643002B9778 /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
+		9B402F1E2AAE36D4002B9778 /* PhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
+		9B402F212AAE370E002B9778 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		9B91629D2AACD629000018DD /* AlbumsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlbumsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9162A02AACD629000018DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B9162A72AACD629000018DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,12 +58,93 @@
 				9B402F0B2AADD913002B9778 /* CombineMoya in Frameworks */,
 				9B402F112AADD913002B9778 /* RxMoya in Frameworks */,
 				9B402F0F2AADD913002B9778 /* ReactiveMoya in Frameworks */,
+				9B402F182AAE31FA002B9778 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B402F192AAE35FB002B9778 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B402F1A2AAE360D002B9778 /* AlbumsModel.swift */,
+				9B402F1C2AAE3643002B9778 /* UsersModel.swift */,
+				9B402F1E2AAE36D4002B9778 /* PhotosModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9B402F202AAE36FE002B9778 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				9B402F212AAE370E002B9778 /* NetworkManager.swift */,
+				9B402F122AADDAD7002B9778 /* NetworkService.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		9B402F232AAE3769002B9778 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B402F252AAE37A7002B9778 /* AlbumDetailsView */,
+				9B402F242AAE3782002B9778 /* ProfileView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9B402F242AAE3782002B9778 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				9B9162B42AAD0607000018DD /* ProfileScreen.swift */,
+				9B9162C22AAD1852000018DD /* ProfileHeader.swift */,
+				9B9162B62AAD07AF000018DD /* ProfileAlbumCell.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		9B402F252AAE37A7002B9778 /* AlbumDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				9B402F072AADCF4B002B9778 /* AlbumDetailsCell.swift */,
+				9B402F052AADCEF1002B9778 /* AlbumDetailsScreen.swift */,
+			);
+			path = AlbumDetailsView;
+			sourceTree = "<group>";
+		};
+		9B402F262AAE37D7002B9778 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9B402F142AADDBE5002B9778 /* AlbumViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9B402F272AAE3848002B9778 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9B9162A02AACD629000018DD /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9B402F282AAE3856002B9778 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9B9162AB2AACD629000018DD /* LaunchScreen.storyboard */,
+				9B9162A62AACD629000018DD /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9B402F2A2AAE3874002B9778 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9B9162A92AACD629000018DD /* Assets.xcassets */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		9B9162942AACD628000018DD = {
 			isa = PBXGroup;
 			children = (
@@ -70,16 +164,14 @@
 		9B91629F2AACD629000018DD /* AlbumsApp */ = {
 			isa = PBXGroup;
 			children = (
-				9B9162A02AACD629000018DD /* AppDelegate.swift */,
-				9B9162A62AACD629000018DD /* Main.storyboard */,
-				9B9162A92AACD629000018DD /* Assets.xcassets */,
-				9B9162AB2AACD629000018DD /* LaunchScreen.storyboard */,
 				9B9162AE2AACD629000018DD /* Info.plist */,
-				9B9162B42AAD0607000018DD /* ProfileScreen.swift */,
-				9B9162B62AAD07AF000018DD /* ProfileAlbumCell.swift */,
-				9B9162C22AAD1852000018DD /* ProfileHeader.swift */,
-				9B402F052AADCEF1002B9778 /* AlbumDetailsScreen.swift */,
-				9B402F072AADCF4B002B9778 /* AlbumDetailsCell.swift */,
+				9B402F2A2AAE3874002B9778 /* Utilities */,
+				9B402F282AAE3856002B9778 /* Storyboards */,
+				9B402F272AAE3848002B9778 /* Core */,
+				9B402F262AAE37D7002B9778 /* ViewModel */,
+				9B402F232AAE3769002B9778 /* Views */,
+				9B402F202AAE36FE002B9778 /* NetworkManager */,
+				9B402F192AAE35FB002B9778 /* Models */,
 			);
 			path = AlbumsApp;
 			sourceTree = "<group>";
@@ -105,6 +197,7 @@
 				9B402F0C2AADD913002B9778 /* Moya */,
 				9B402F0E2AADD913002B9778 /* ReactiveMoya */,
 				9B402F102AADD913002B9778 /* RxMoya */,
+				9B402F172AAE31FA002B9778 /* Kingfisher */,
 			);
 			productName = AlbumsApp;
 			productReference = 9B91629D2AACD629000018DD /* AlbumsApp.app */;
@@ -136,6 +229,7 @@
 			mainGroup = 9B9162942AACD628000018DD;
 			packageReferences = (
 				9B402F092AADD913002B9778 /* XCRemoteSwiftPackageReference "Moya" */,
+				9B402F162AAE31FA002B9778 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 9B91629E2AACD629000018DD /* Products */;
 			projectDirPath = "";
@@ -164,12 +258,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B402F222AAE370E002B9778 /* NetworkManager.swift in Sources */,
 				9B9162C32AAD1852000018DD /* ProfileHeader.swift in Sources */,
+				9B402F1F2AAE36D4002B9778 /* PhotosModel.swift in Sources */,
 				9B402F082AADCF4B002B9778 /* AlbumDetailsCell.swift in Sources */,
 				9B9162A12AACD629000018DD /* AppDelegate.swift in Sources */,
 				9B402F062AADCEF1002B9778 /* AlbumDetailsScreen.swift in Sources */,
+				9B402F1B2AAE360D002B9778 /* AlbumsModel.swift in Sources */,
+				9B402F152AADDBE5002B9778 /* AlbumViewModel.swift in Sources */,
 				9B9162B52AAD0607000018DD /* ProfileScreen.swift in Sources */,
 				9B9162B72AAD07AF000018DD /* ProfileAlbumCell.swift in Sources */,
+				9B402F1D2AAE3643002B9778 /* UsersModel.swift in Sources */,
+				9B402F132AADDAD7002B9778 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +497,14 @@
 				minimumVersion = 15.0.0;
 			};
 		};
+		9B402F162AAE31FA002B9778 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -419,6 +527,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9B402F092AADD913002B9778 /* XCRemoteSwiftPackageReference "Moya" */;
 			productName = RxMoya;
+		};
+		9B402F172AAE31FA002B9778 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B402F162AAE31FA002B9778 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -11,18 +11,21 @@ class AlbumDetailsCell: UICollectionViewCell {
 
     static let reuseIdentifier = "AlbumDetailsCell"
 
-    let label: UILabel = {
-        let label = UILabel()
-        label.textAlignment = .center
-        return label
+    let albumImage: UIImageView = {
+        let image = UIImageView()
+        image.contentMode = .scaleAspectFit
+        return image
     }()
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        contentView.addSubview(label)
-        label.frame = contentView.bounds
-        label.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        contentView.backgroundColor = UIColor.random()
+        contentView.addSubview(albumImage)
+        albumImage.frame = contentView.bounds
+        albumImage.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+    }
+
+    func setImage(with url: String) {
+        albumImage.kf.setImage(with: URL(string: url))
     }
 
     required init?(coder aDecoder: NSCoder) {
