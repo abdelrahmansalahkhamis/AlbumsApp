@@ -9,7 +9,7 @@ import UIKit
 
 class ProfileHeader: UITableViewHeaderFooterView {
 
-    func setUpUI(){
+    func setUpUI(userModel: UserModel){
         let stackView = UIStackView()
         stackView.axis = .vertical
         stackView.alignment = .leading
@@ -22,13 +22,14 @@ class ProfileHeader: UITableViewHeaderFooterView {
 
 
         let username = UILabel()
-        username.text = "Leanne Graham"
+//        username.text = "Leanne Graham"
+        username.text = userModel.name
         username.textAlignment = .left
         username.font = UIFont.systemFont(ofSize: 18, weight: .semibold)
 
 
         let userAddress = UILabel()
-        userAddress.text = "Apt. 556, Gwenborough, 92998-3874"
+        userAddress.text = userModel.address.street + ", " + userModel.address.city + ", " + userModel.address.zipcode + ", " + userModel.address.suite
         userAddress.textAlignment = .left
         userAddress.font = UIFont.systemFont(ofSize: 18, weight: .medium)
 

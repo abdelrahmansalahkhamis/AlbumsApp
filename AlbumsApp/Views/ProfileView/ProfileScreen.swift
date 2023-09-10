@@ -9,11 +9,40 @@ import UIKit
 
 class ProfileScreen: UITableViewController {
 
-    let albumsArr: [String] = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"]
+
+    var viewModel = AlbumViewModel(newsAPIService: NetworkManagerImp())
+
+    // set currentUserId to 1 as the default choice
+    var currentUserId: Int = 1
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.sectionHeaderHeight = 180
+
+        viewModel.displayUsers()
+
+        viewModel.displayAlbums(for: currentUserId)
+
+        observeUser()
+        observeAlbums()
+    }
+
+    private func observeUser() {
+        viewModel.$users
+            .receive(on: DispatchQueue.main)
+            .sink { [weak self] users in
+                self?.tableView.reloadData()
+            }
+            .store(in: &viewModel.bag)
+    }
+
+    private func observeAlbums() {
+        viewModel.$albums
+            .receive(on: DispatchQueue.main)
+            .sink { [weak self] albums in
+                self?.tableView.reloadData()
+            }
+            .store(in: &viewModel.bag)
     }
 
     // MARK: - Table view data source
@@ -25,7 +54,7 @@ class ProfileScreen: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return albumsArr.count
+        return viewModel.albums.count
     }
 
 
@@ -33,7 +62,7 @@ class ProfileScreen: UITableViewController {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "ProfileAlbumCell", for: indexPath) as? ProfileAlbumCell else {
             return UITableViewCell()
         }
-        cell.papulateData(albumsArr[indexPath.row])
+        cell.populateData(viewModel.albums[indexPath.row].title)
 
         return cell
     }
@@ -45,11 +74,14 @@ class ProfileScreen: UITableViewController {
 
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerView = ProfileHeader()
-        headerView.setUpUI()
+        if viewModel.users.count > 0{
+            let n = Int.random(in: 0..<viewModel.users.count)
+            headerView.setUpUI(userModel: viewModel.users[n])
+        }
         return headerView
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.navigationController?.pushViewController(AlbumDetailsScreen(), animated: false)
+        self.navigationController?.pushViewController(AlbumDetailsScreen(albumId: viewModel.albums[indexPath.row].id), animated: false)
     }
 }

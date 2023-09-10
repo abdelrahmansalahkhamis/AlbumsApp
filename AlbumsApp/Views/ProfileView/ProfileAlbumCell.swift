@@ -11,7 +11,7 @@ class ProfileAlbumCell: UITableViewCell {
 
     @IBOutlet weak var albumLbl: UILabel!
 
-    func papulateData(_ albumName: String){
+    func populateData(_ albumName: String){
         self.albumLbl.text = albumName
     }
 

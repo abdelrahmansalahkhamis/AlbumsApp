@@ -30,9 +30,9 @@
             filePath = "AlbumsApp/ProfileScreen.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
-            landmarkName = "tableView(_:viewForHeaderInSection:)"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -46,8 +46,8 @@
             filePath = "AlbumsApp/AlbumDetailsScreen.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "AlbumDetailsScreen"
             landmarkType = "3">
          </BreakpointContent>
@@ -64,114 +64,6 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "159"
             endingLineNumber = "159">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "46450640-FD0A-4B28-ADD1-A331766176AD"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AlbumsApp/AlbumDetailsCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "AlbumDetailsCell"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "46450640-FD0A-4B28-ADD1-A331766176AD - 1a1711134a8217f4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AlbumsApp.AlbumDetailsCell.papulateData(Swift.String) -&gt; ()"
-                  moduleName = "AlbumsApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumDetailsCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "46450640-FD0A-4B28-ADD1-A331766176AD - 1a1711134a8217d5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AlbumsApp.AlbumDetailsCell.papulateData(Swift.String) -&gt; ()"
-                  moduleName = "AlbumsApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumDetailsCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "28">
-               </Location>
-               <Location
-                  uuid = "46450640-FD0A-4B28-ADD1-A331766176AD - 74a824677a9cb5a8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; __C.UILabel in variable initialization expression of AlbumsApp.AlbumDetailsCell.label : __C.UILabel"
-                  moduleName = "AlbumsApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumDetailsCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  uuid = "46450640-FD0A-4B28-ADD1-A331766176AD - 56b6e13eed9cecf1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AlbumsApp.AlbumDetailsCell.label.getter : __C.UILabel"
-                  moduleName = "AlbumsApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumDetailsCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "48">
-               </Location>
-               <Location
-                  uuid = "46450640-FD0A-4B28-ADD1-A331766176AD - 9abd59b1b68cbb72"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AlbumsApp.AlbumDetailsCell.init(frame: __C.CGRect) -&gt; AlbumsApp.AlbumDetailsCell"
-                  moduleName = "AlbumsApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumDetailsCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "88">
-               </Location>
-               <Location
-                  uuid = "46450640-FD0A-4B28-ADD1-A331766176AD - e9e8150093a60a87"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AlbumsApp.AlbumDetailsCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AlbumsApp.AlbumDetailsCell&gt;"
-                  moduleName = "AlbumsApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumDetailsCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "68">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -283,6 +175,1015 @@
             startingLineNumber = "41"
             endingLineNumber = "41"
             landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA3793AA-56F3-4738-8DE6-2F6E489E7AB4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/ProfileScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BA3793AA-56F3-4738-8DE6-2F6E489E7AB4 - fe83969e1fb670e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.ProfileScreen.tableView(_: __C.UITableView, viewForHeaderInSection: Swift.Int) -&gt; Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "BA3793AA-56F3-4738-8DE6-2F6E489E7AB4 - 1a223e5e7ed7328f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.ProfileScreen.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "432">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C054CAD1-6041-46F4-BB4A-06444A1E0907"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/AlbumViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "displayAlbums(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C054CAD1-6041-46F4-BB4A-06444A1E0907 - 6f8d9f2617c7a9b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.AlbumViewModel.displayAlbums(for: Swift.Int) -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "C054CAD1-6041-46F4-BB4A-06444A1E0907 - 851fcc8208372c44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;AlbumsApp.AlbumsModel&gt;) -&gt; () in AlbumsApp.AlbumViewModel.displayAlbums(for: Swift.Int) -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "C054CAD1-6041-46F4-BB4A-06444A1E0907 - 528c7da3756bcb32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AlbumsApp.AlbumsModel) -&gt; AlbumsApp.AlbumsModel in closure #2 (Swift.Array&lt;AlbumsApp.AlbumsModel&gt;) -&gt; () in AlbumsApp.AlbumViewModel.displayAlbums(for: Swift.Int) -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E27BE0F-3D06-4D57-BE2B-D67A28821873"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/ProfileScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4E27BE0F-3D06-4D57-BE2B-D67A28821873 - cee3a1e70f2ea9a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.ProfileScreen.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "4E27BE0F-3D06-4D57-BE2B-D67A28821873 - cee3a1e70f2ea8ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.ProfileScreen.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B4335DF-0ABC-40F9-9FDB-B6E122F76396"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/ProfileScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "observeAlbums()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2B4335DF-0ABC-40F9-9FDB-B6E122F76396 - ae4409b01d653bae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.ProfileScreen.observeAlbums() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "584">
+               </Location>
+               <Location
+                  uuid = "2B4335DF-0ABC-40F9-9FDB-B6E122F76396 - 55b2a750f88ad4a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;AlbumsApp.AlbumsModel&gt;) -&gt; () in AlbumsApp.ProfileScreen.observeAlbums() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A332CB24-F913-40FC-B4DF-98893278C5CF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "path"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "A332CB24-F913-40FC-B4DF-98893278C5CF - 49a5474c7f0b068b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.NetworkService.path.getter : Swift.String"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "A332CB24-F913-40FC-B4DF-98893278C5CF - 49a5474c7f0b068b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.NetworkService.path.getter : Swift.String"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "A332CB24-F913-40FC-B4DF-98893278C5CF - 49a5474c7f0b066a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.NetworkService.path.getter : Swift.String"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "A332CB24-F913-40FC-B4DF-98893278C5CF - 49a5474c7f0b068b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.NetworkService.path.getter : Swift.String"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4A4B29E-B996-40BA-B5F8-3C34F4CC2230"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/AlbumViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "displayAlbums(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D4A4B29E-B996-40BA-B5F8-3C34F4CC2230 - 6f8d9f2617c7a9b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.AlbumViewModel.displayAlbums(for: Swift.Int) -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "D4A4B29E-B996-40BA-B5F8-3C34F4CC2230 - ad6297374292700d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in AlbumsApp.AlbumViewModel.displayAlbums(for: Swift.Int) -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3B589CF-2D48-43A5-84ED-2DDD964D1118"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/AlbumViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "displayAlbums(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C3B589CF-2D48-43A5-84ED-2DDD964D1118 - 54dc4e8c8dea2aa9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.AlbumViewModel.displayUser() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "C3B589CF-2D48-43A5-84ED-2DDD964D1118 - 4dda9dc0dd9ada1c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in AlbumsApp.AlbumViewModel.displayUser() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "C3B589CF-2D48-43A5-84ED-2DDD964D1118 - 3e8e84dc34c7878c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;AlbumsApp.UsersModel&gt;) -&gt; () in AlbumsApp.AlbumViewModel.displayUser() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "C3B589CF-2D48-43A5-84ED-2DDD964D1118 - 6f8d9f2617c7a88d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.AlbumViewModel.displayAlbums(for: Swift.Int) -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "C3B589CF-2D48-43A5-84ED-2DDD964D1118 - 6f8d9f2617c7a88d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.AlbumViewModel.displayAlbums(for: Swift.Int) -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "800E298E-7F21-434B-B34D-4E28B1BDF133"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/AlbumViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "displayUsers()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "800E298E-7F21-434B-B34D-4E28B1BDF133 - 54dc4e8c8dea2aeb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.AlbumViewModel.displayUser() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "800E298E-7F21-434B-B34D-4E28B1BDF133 - 4dda9dc0dd9ad975"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in AlbumsApp.AlbumViewModel.displayUser() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "800E298E-7F21-434B-B34D-4E28B1BDF133 - dfd2e0507d3434ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in AlbumsApp.AlbumViewModel.displayUser(for: Swift.Int) -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "800E298E-7F21-434B-B34D-4E28B1BDF133 - 899603398f944247"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in AlbumsApp.AlbumViewModel.displayUsers() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83CD9E50-A30A-495C-A19D-A8D8DBABE88D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/AlbumViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "displayUsers()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "83CD9E50-A30A-495C-A19D-A8D8DBABE88D - 54dc4e8c8dea2aeb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.AlbumViewModel.displayUser() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "83CD9E50-A30A-495C-A19D-A8D8DBABE88D - 3e8e84dc34c784a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;AlbumsApp.UsersModel&gt;) -&gt; () in AlbumsApp.AlbumViewModel.displayUser() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "83CD9E50-A30A-495C-A19D-A8D8DBABE88D - f38bd9c13b62b954"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AlbumsApp.UsersModel) -&gt; AlbumsApp.UsersModel in closure #2 (Swift.Array&lt;AlbumsApp.UsersModel&gt;) -&gt; () in AlbumsApp.AlbumViewModel.displayUser() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "384">
+               </Location>
+               <Location
+                  uuid = "83CD9E50-A30A-495C-A19D-A8D8DBABE88D - 9a3f1abbe9e9b2bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (AlbumsApp.UserModel) -&gt; () in AlbumsApp.AlbumViewModel.displayUser(for: Swift.Int) -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "460">
+               </Location>
+               <Location
+                  uuid = "83CD9E50-A30A-495C-A19D-A8D8DBABE88D - 532b6a58db9e6af2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;AlbumsApp.UserModel&gt;) -&gt; () in AlbumsApp.AlbumViewModel.displayUsers() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19FD2ED6-912F-43C3-8CF3-F8AF4FFCB8D9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/AlbumViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "displayPhotos(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "19FD2ED6-912F-43C3-8CF3-F8AF4FFCB8D9 - 3ce22d72e3651630"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.AlbumViewModel.displayPhotos(for: Swift.Int) -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "19FD2ED6-912F-43C3-8CF3-F8AF4FFCB8D9 - a72d53cf7e31fe17"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in AlbumsApp.AlbumViewModel.displayPhotos(for: Swift.Int) -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83BC4661-F927-4823-B67B-FCBFFC0E6B1D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/AlbumViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "displayPhotos(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "83BC4661-F927-4823-B67B-FCBFFC0E6B1D - 3ce22d72e36517ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.AlbumViewModel.displayPhotos(for: Swift.Int) -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "83BC4661-F927-4823-B67B-FCBFFC0E6B1D - a72d53cf7e31ffe9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in AlbumsApp.AlbumViewModel.displayPhotos(for: Swift.Int) -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "83BC4661-F927-4823-B67B-FCBFFC0E6B1D - 5ed5d96d68f693fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;AlbumsApp.PhotosModel&gt;) -&gt; () in AlbumsApp.AlbumViewModel.displayPhotos(for: Swift.Int) -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "83BC4661-F927-4823-B67B-FCBFFC0E6B1D - ada005eea90f6138"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AlbumsApp.PhotosModel) -&gt; AlbumsApp.PhotosModel in closure #2 (Swift.Array&lt;AlbumsApp.PhotosModel&gt;) -&gt; () in AlbumsApp.AlbumViewModel.displayPhotos(for: Swift.Int) -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/AlbumViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9710F473-7300-4F72-A0B0-82EDC8B88A49"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/ProfileScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "observeAlbums()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9710F473-7300-4F72-A0B0-82EDC8B88A49 - ae4409b01d653b8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.ProfileScreen.observeAlbums() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "660">
+               </Location>
+               <Location
+                  uuid = "9710F473-7300-4F72-A0B0-82EDC8B88A49 - ae4409b01d653a41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.ProfileScreen.observeAlbums() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "584">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6064A22F-BACB-40F2-BF53-216A5016A700"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/ProfileScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "observeUser()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6064A22F-BACB-40F2-BF53-216A5016A700 - ae4409b01d653b49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.ProfileScreen.observeAlbums() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "6064A22F-BACB-40F2-BF53-216A5016A700 - 14506c0ea18bcd1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.ProfileScreen.observeUsers() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "584">
+               </Location>
+               <Location
+                  uuid = "6064A22F-BACB-40F2-BF53-216A5016A700 - 75a27360efe11391"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.ProfileScreen.observeUser() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "584">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB920246-7AE4-4DC4-B6E7-694E9DED41A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/ProfileScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "observeUser()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DB920246-7AE4-4DC4-B6E7-694E9DED41A8 - 14506c0ea18bce80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.ProfileScreen.observeUsers() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "584">
+               </Location>
+               <Location
+                  uuid = "DB920246-7AE4-4DC4-B6E7-694E9DED41A8 - 90f15c9b0a51f95a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;AlbumsApp.UsersModel&gt;) -&gt; () in AlbumsApp.ProfileScreen.observeUsers() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F480D6EB-4884-4309-A8C1-8E0A8FC84B83"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/ProfileScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "observeAlbums()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F480D6EB-4884-4309-A8C1-8E0A8FC84B83 - ae4409b01d653b0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.ProfileScreen.observeAlbums() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "464">
+               </Location>
+               <Location
+                  uuid = "F480D6EB-4884-4309-A8C1-8E0A8FC84B83 - 55b2a750f88ad42d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;AlbumsApp.AlbumsModel&gt;) -&gt; () in AlbumsApp.ProfileScreen.observeAlbums() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "F480D6EB-4884-4309-A8C1-8E0A8FC84B83 - ae4409b01d653bec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlbumsApp.ProfileScreen.observeAlbums() -&gt; ()"
+                  moduleName = "AlbumsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdelrahmansalah/Desktop/AlbumsApp/AlbumsApp/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DCAC9EA9-BAEE-40BC-8105-EE281A4F27B0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/ProfileScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "observeUser()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "93A6FE0E-C647-4A32-B20C-792CA93CF626"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/AlbumDetailsScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B3E82BE-7254-4DC3-B958-AA0DD33EB338"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/AlbumDetailsScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB7E2B4B-DFC4-4915-9E80-795C889EE494"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlbumsApp/AlbumDetailsCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "setImage(with:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -6,26 +6,50 @@
 //
 
 import UIKit
+import Kingfisher
 
 class AlbumDetailsScreen: UIViewController, UICollectionViewDataSource {
 
-    let colors: [UIColor] = [.red, .green, .blue, .yellow, .purple, .orange]
 
     let searchController = UISearchController(searchResultsController: nil)
 
-    var arr: [String] = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    var photosArr: [PhotosModel] = []
 
-    var searchArr: [String] = ["11", "12", "13", "14", "15", "16", "17", "18", "19", "20"]
-    private let reuseIdentifier = "AlbumDetailsCell"
+    var searchArr: [PhotosModel] = []
     var isSearching: Bool = false
 
     private var collectionView: UICollectionView?
+
+    var albumId: Int
+    var viewModel = AlbumViewModel(newsAPIService: NetworkManagerImp())
+    init(albumId: Int) {
+        self.albumId = albumId
+        super.init(nibName: nil, bundle: nil)
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         configureSearchController()
         configureCollectionView()
+
+        viewModel.displayPhotos(for: albumId)
+
+        observePhotos()
+    }
+
+    private func observePhotos() {
+        viewModel.$photos
+            .receive(on: DispatchQueue.main)
+            .sink { [weak self] photos in
+                self?.photosArr = photos
+                self?.collectionView?.reloadData()
+            }
+            .store(in: &viewModel.bag)
     }
 
     func configureCollectionView(){
@@ -71,23 +95,16 @@ class AlbumDetailsScreen: UIViewController, UICollectionViewDataSource {
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return isSearching ? searchArr.count : arr.count
+        return isSearching ? searchArr.count : photosArr.count
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AlbumDetailsCell.reuseIdentifier, for: indexPath) as! AlbumDetailsCell
-        cell.label.text = "\(indexPath.item)"
 
         if isSearching {
-            cell.label.text = searchArr[indexPath.row]
-            //cell.papulateData(searchArr[indexPath.row])
-            //label.text = searchArr[indexPath.row]
+            cell.setImage(with: searchArr[indexPath.row].thumbnailURL)
         } else {
-            cell.label.text = arr[indexPath.row]
-            //label.text = arr[indexPath.row]
-
-            //cell.papulateData(arr[indexPath.row])
-
+            cell.setImage(with: photosArr[indexPath.row].thumbnailURL)
         }
         return cell
     }
@@ -99,15 +116,15 @@ extension AlbumDetailsScreen: UISearchResultsUpdating, UISearchBarDelegate {
         if !searchText.isEmpty {
             isSearching = true
             searchArr.removeAll()
-            for item in arr {
-                if item.lowercased().contains(searchText.lowercased()) {
+            for item in photosArr {
+                if item.title.lowercased().contains(searchText.lowercased()) {
                     searchArr.append(item)
                 }
             }
         } else {
             isSearching = false
             searchArr.removeAll()
-            searchArr = arr
+            searchArr = photosArr
         }
         collectionView?.reloadData()
     }
@@ -118,14 +135,4 @@ extension AlbumDetailsScreen: UISearchResultsUpdating, UISearchBarDelegate {
         collectionView?.reloadData()
     }
 
-}
-
-
-extension UIColor {
-    static func random() -> UIColor {
-        let red = CGFloat.random(in: 0...1)
-        let green = CGFloat.random(in: 0...1)
-        let blue = CGFloat.random(in: 0...1)
-        return UIColor(red: red, green: green, blue: blue, alpha: 1.0)
-    }
 }
