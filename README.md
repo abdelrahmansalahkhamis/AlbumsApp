@@ -6,6 +6,8 @@
 
 - the architecture pattern used is MVVM
 
+- I've set the user id to 1 as default
+
 - third party libraries included are Moya, RXSwift, and KingFisher
 
 - there is a protocol named NetworkManager that is used for both network request and unit testing
