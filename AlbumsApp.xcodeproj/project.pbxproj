@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		9B402F062AADCEF1002B9778 /* AlbumDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B402F052AADCEF1002B9778 /* AlbumDetailsScreen.swift */; };
 		9B402F082AADCF4B002B9778 /* AlbumDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B402F072AADCF4B002B9778 /* AlbumDetailsCell.swift */; };
+		9B402F0B2AADD913002B9778 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 9B402F0A2AADD913002B9778 /* CombineMoya */; };
+		9B402F0D2AADD913002B9778 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 9B402F0C2AADD913002B9778 /* Moya */; };
+		9B402F0F2AADD913002B9778 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 9B402F0E2AADD913002B9778 /* ReactiveMoya */; };
+		9B402F112AADD913002B9778 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 9B402F102AADD913002B9778 /* RxMoya */; };
 		9B9162A12AACD629000018DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9162A02AACD629000018DD /* AppDelegate.swift */; };
 		9B9162A82AACD629000018DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9162A62AACD629000018DD /* Main.storyboard */; };
 		9B9162AA2AACD629000018DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9162A92AACD629000018DD /* Assets.xcassets */; };
@@ -37,6 +41,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B402F0D2AADD913002B9778 /* Moya in Frameworks */,
+				9B402F0B2AADD913002B9778 /* CombineMoya in Frameworks */,
+				9B402F112AADD913002B9778 /* RxMoya in Frameworks */,
+				9B402F0F2AADD913002B9778 /* ReactiveMoya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +100,12 @@
 			dependencies = (
 			);
 			name = AlbumsApp;
+			packageProductDependencies = (
+				9B402F0A2AADD913002B9778 /* CombineMoya */,
+				9B402F0C2AADD913002B9778 /* Moya */,
+				9B402F0E2AADD913002B9778 /* ReactiveMoya */,
+				9B402F102AADD913002B9778 /* RxMoya */,
+			);
 			productName = AlbumsApp;
 			productReference = 9B91629D2AACD629000018DD /* AlbumsApp.app */;
 			productType = "com.apple.product-type.application";
@@ -120,6 +134,9 @@
 				Base,
 			);
 			mainGroup = 9B9162942AACD628000018DD;
+			packageReferences = (
+				9B402F092AADD913002B9778 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = 9B91629E2AACD629000018DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -370,6 +387,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9B402F092AADD913002B9778 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9B402F0A2AADD913002B9778 /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B402F092AADD913002B9778 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		9B402F0C2AADD913002B9778 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B402F092AADD913002B9778 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		9B402F0E2AADD913002B9778 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B402F092AADD913002B9778 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		9B402F102AADD913002B9778 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B402F092AADD913002B9778 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9B9162952AACD628000018DD /* Project object */;
 }
